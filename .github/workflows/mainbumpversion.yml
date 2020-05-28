@@ -6,7 +6,7 @@ name: bump version
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [ dev2 ]
 jobs:
   builder:
     runs-on: ubuntu-latest
