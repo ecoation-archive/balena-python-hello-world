@@ -3,7 +3,7 @@ name: "Tag commits on develop"
 on:
   push:
     branches:
-      - master
+      - dev
 
 jobs:
   build:
