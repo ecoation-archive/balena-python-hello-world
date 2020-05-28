@@ -25,6 +25,6 @@ outputs:
     description: New version
   prefix:
     description: Prefix if set
-
-# [bump]
-# 2.0.32
+runs:
+  using: 'node12'
+  main: 'lib/main.js'
