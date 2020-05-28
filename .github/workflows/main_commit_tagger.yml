@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Apply a tag to the new commit
-      uses: mcpierce/github-commit-timestamp-tagger@master
+      uses: mosfetlang/dev-tagger-action@v1
       with:
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
-        base_version: "v0.0.0"
+       tag-prefix: 'my-tag-'
+       origin: 'origin2'
