@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Bump versions
-      uses: remorses/bump-version@js
-      with:
-        version_file: ./VERSION
-        prefix: dir2 # this will prefix the created tag
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Bump version
+        uses: ./
+        with:
+          version_file: VERSION
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
