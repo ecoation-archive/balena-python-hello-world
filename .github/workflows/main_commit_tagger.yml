@@ -16,4 +16,4 @@ jobs:
         version_file: ./VERSION
         prefix: dir2 # this will prefix the created tag
         github_token: ${{ secrets.GITHUB_TOKEN }}
-# will create the tag {prefix}_{version}
+
