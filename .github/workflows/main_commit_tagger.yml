@@ -18,3 +18,4 @@ jobs:
       with:
         repo-token: "${{ secrets.GIT_TOKEN }}"
         tag: "my_tag"
+        commit-sha: abc123
