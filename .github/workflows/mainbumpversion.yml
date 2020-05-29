@@ -13,9 +13,8 @@ jobs:
     name: Bump-N-Tag Version
     steps:
     - uses: actions/checkout@master
-    - name: Increment version
-      id: version   
-      uses: vinodhraj/Bump-N-Tag-Version@master
+    - name: ump-N-Tag Version
+      uses: vinodhraj/Bump-N-Tag-Version@v1.0.1
       with:
         file_name: './VERSION'
         tag_version: "true"
