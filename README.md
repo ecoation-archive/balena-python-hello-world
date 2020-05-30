@@ -1,5 +1,5 @@
 next upknknknkn
-## A Simple Server with Python Flask :):) :).xxxccc
+## A Simple Server with Python Flask :):) :). cc
 
 This is a simple skeleton Flask server project that works on any of the devices supported by [balena][balena-link].
 
